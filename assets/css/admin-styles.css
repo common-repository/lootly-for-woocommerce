@@ -1,0 +1,93 @@
+.lootly__wrap {
+    padding-top: 40px;
+    padding-right: 20px;
+}
+.lootly__wrap a{
+    color: #444;
+}
+.lootly__wrap section{
+    border-top: #444 1px solid;
+}
+
+.lootly__wrap section h1{
+    color: #444;
+    font-weight: 700;
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+.lootly__logo__wrap{
+    padding-right: 75%;
+}
+.lootly__logo {
+    background: url(../img/logo-black.png);
+    height: 80px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section-content form input, .section-content form select{
+    display: inline-block;
+    width: 50%;
+}
+.section-content form p{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+.section-content form label{
+    display: inline-block;
+    width: 12.5%;
+}
+.section-content form input.button{
+    width: auto;
+    margin-left: 12.5%;
+}
+.section-content form#options__form p:first-child{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+#adminmenu .toplevel_page_lootly .wp-menu-image img {
+    display: block;
+    max-height: 25px;
+    padding-left: 9px;
+}
+.verification{
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 30px;
+}
+.verification.success{
+    color: #008000;
+}
+
+.verification.fail{
+    color: #8B0000;
+}
+@media screen and (max-width: 780px) {
+    .section-content form input, .section-content form select {
+        width: 75%;
+    }
+    .lootly__logo__wrap {
+        padding-right: 50%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .section-content form input, .section-content form select {
+        width: 100%;
+    }
+    .lootly__logo__wrap {
+        padding-right: 0;
+    }
+    .section-content form label {
+        display: block;
+        width: 50%;
+    }
+    .section-content form input.button {
+        margin-left:0;
+    }
+    .section-content form#options__form p:first-child, .section-content form p {
+        display: block;
+    }
+}
